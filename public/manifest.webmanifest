@@ -1,16 +1,11 @@
 {
-  "background_color": "none",
-  "description": "tube-pwa",
-  "dir": "ltr",
+  "name": "<Application Name>",
+  "short_name": "<Application Short Name>",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
   "display": "standalone",
-  "name": "tube-pwa",
-  "orientation": "portrait",
-  "scope": "/",
-  "short_name": "tube-pwa",
-  "start_url": "https://f11b-101-101-166-132.ngrok.io/index.html",
-  "theme_color": "none",
-  "categories": [],
-  "screenshots": [],
+  "scope": "./",
+  "start_url": "./",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
@@ -60,6 +55,5 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
-  ],
-  "shortcuts": []
+  ]
 }
